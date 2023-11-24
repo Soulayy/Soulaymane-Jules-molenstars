@@ -28,7 +28,7 @@ body {
     margin: 0%;
     height: 100%;
     width: 100vw;
-    background-image: url(./../../MolenStars/MolenStars/Assets/images/banner-overlay-img.png);
+    background-image: url(./../src/image/images/banner-overlay-img.png);
     background-size: cover;
     background-color: black;
     background-repeat: no-repeat; 
