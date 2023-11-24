@@ -94,3 +94,82 @@
     width: 30%;
     aspect-ratio: 1/1;
 }
+
+
+/* SECTION 3  */
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    font-family: robotoRegular;
+    gap: 40px;
+    position: relative;
+}
+
+.sect3Left{
+    width: 32%;
+    aspect-ratio: 1/1;
+}
+
+.sect3Image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-image: url(./../src/image/images/informationmain-left-sec-img.png);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sect3Right{
+    width: 35%;
+}
+
+.lightBlueHeader{
+    letter-spacing: 3px;
+    color: rgb(5, 212 , 239);
+    font-family: robotoBold;
+    font-size: 8px;
+}
+
+.sect3Header{
+    font-size: 25px;
+}
+
+.sect3Text{
+    font-size: 10px;
+    line-height: 15px;
+    opacity: 60%;
+    margin-bottom: 20px;
+}
+
+.sect3Check{
+    width: 10px;
+}
+
+.checkText{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkLine{
+    margin-top: 3px;
+    margin-bottom: 2px;
+    opacity: 60%;
+}
+
+.sect3BackgroundDots{
+    width: 15%;
+    height: 250px;
+    position: absolute;
+    background-image: url(./../src/image/images/dots-img2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    right: 0;
+}
