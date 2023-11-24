@@ -81,7 +81,7 @@
 }
 
 .bannerImage{
-    background-image: url(./../../MolenStars/MolenStars/Assets/images/banner-right-img.png);
+    background-image: url(./../src/image/images/banner-right-img.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
