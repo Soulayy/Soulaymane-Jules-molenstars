@@ -12,11 +12,11 @@
         
 
 .section1 {
-    gap: 15%;
+    gap: 0%;
     }
 
 .headerL {
-    width: 140px;
+    width: 200px;
     height: 140px;
     display: flex;
     justify-content: flex-end;
