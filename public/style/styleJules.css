@@ -47,7 +47,7 @@
 }
 
 .bannerText{
-    opacity: 60%;
+    color: rgb(71, 123, 208);
     font-family: robotoRegular;
     font-size: 10px;
     line-height: 15px;
@@ -124,7 +124,7 @@
 }
 
 .sect3Right{
-    width: 35%;
+    width: 30%;
 }
 
 .lightBlueHeader{
@@ -141,7 +141,7 @@
 .sect3Text{
     font-size: 10px;
     line-height: 15px;
-    opacity: 60%;
+    color: rgb(71, 123, 208);
     margin-bottom: 20px;
 }
 
@@ -159,12 +159,12 @@
 .checkLine{
     margin-top: 3px;
     margin-bottom: 2px;
-    opacity: 60%;
+    color: rgb(71, 123, 208);
 }
 
 .sect3BackgroundDots{
     width: 15%;
-    height: 250px;
+    height: 100%;
     position: absolute;
     background-image: url(./../src/image/images/dots-img2.png);
     background-position: center;
@@ -173,3 +173,4 @@
     transform: rotateY(180deg);
     right: 0;
 }
+

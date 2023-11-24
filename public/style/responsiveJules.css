@@ -41,6 +41,36 @@
     }
 
 
+
+    .section3{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .sect3Right{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sect3Left{
+        width: 50%;
+    }
+
+    .sect3Header{
+        font-size: 20px;
+    }
+
+    .sect3Header, .sect3Text, .lightBlueHeader{
+        text-align: center;
+    }
+
+    .checkText{
+        margin-top: 20px;
+    }
+
+
 }
 
 @media (min-width: 575px) and (max-width: 768px){
@@ -50,11 +80,29 @@
     }
 
     .bannerLeft{
-        width: 50%;
+        width: 35%;
     }
 
     .bannerRight{
-        width: 50%;
+        width: 35%;
+    }
+
+
+
+    .section3{
+        margin-top: 50px;
+    }
+
+    .sect3Right{
+        width: 35%;
+    }
+
+    .sect3Left{
+        width: 35%;
+    }
+
+    .sect3Header{
+        font-size: 20px;
     }
 }
 
