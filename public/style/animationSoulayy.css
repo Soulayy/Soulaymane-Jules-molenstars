@@ -1,0 +1,8 @@
+.anim img {
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.anim img:hover {
+    margin-bottom: 20px;
+}
+
