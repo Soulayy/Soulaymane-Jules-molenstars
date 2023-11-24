@@ -30,7 +30,7 @@ body {
     width: 100vw;
     background-image: url(./../src/image/images/banner-overlay-img.png);
     background-size: cover;
-    background-color: black;
+    background-color: rgb(9, 22 , 80);
     background-repeat: no-repeat; 
 }
 

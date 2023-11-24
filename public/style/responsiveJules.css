@@ -48,6 +48,14 @@
     .bannerTitle{
         font-size: 25px;
     }
+
+    .bannerLeft{
+        width: 50%;
+    }
+
+    .bannerRight{
+        width: 50%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 992px){
