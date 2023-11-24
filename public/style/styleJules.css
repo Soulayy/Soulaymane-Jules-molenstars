@@ -1,0 +1,95 @@
+
+@font-face{
+    font-family: OswaldMedium;
+    src: url(./../../MolenStars/MolenStars/Assets/fonts/OswaldMedium.ttf);
+}
+
+@font-face{
+    font-family: OswaldRegular;
+    src: url(./../../MolenStars/MolenStars/Assets/fonts/OswaldRegular.ttf);
+}
+
+@font-face{
+    font-family: RobotoBold;
+    src: url(./../../MolenStars/MolenStars/Assets/fonts/RobotoBold.ttf);
+}
+
+@font-face{
+    font-family: RobotoMedium;
+    src: url(./../../MolenStars/MolenStars/Assets/fonts/RobotoMedium.ttf);
+}
+
+@font-face{
+    font-family: RobotoRegular;
+    src: url(./../../MolenStars/MolenStars/Assets/fonts/RobotoRegular.ttf);
+}
+
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bannerLeft{
+    width: 30%;
+    color: white;
+}
+
+.bannerTitle{
+    font-family: robotoBold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.bannerText{
+    opacity: 60%;
+    font-family: robotoRegular;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.bannerButtons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.bannerButtons>button{
+    border: none;
+    border-radius: 100px;
+    padding: 8px 16px 8px 16px;
+    font-size: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.bannerButtons>button:hover{
+    background-color: white;
+    color: rgb(32 ,82 ,161);
+}
+
+.bannerButtons>.button1{
+    background-color: rgb(5, 212 , 239);
+}
+
+.bannerButtons>.button2{
+    background-color: rgb(32 ,82 ,161);
+}
+
+.bannerImage{
+    background-image: url(./../../MolenStars/MolenStars/Assets/images/banner-right-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.bannerRight{
+    width: 30%;
+    aspect-ratio: 1/1;
+}
