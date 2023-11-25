@@ -5,4 +5,20 @@
 .anim img:hover {
     margin-bottom: 20px;
 }
+.anim:hover{
+    background-color: aqua;
+}
 
+
+
+.anim4 {
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.anim4:hover {
+    border: 1px solid aqua;
+}
+
+.anim4:hover img{
+    margin-bottom: 10%;
+}
