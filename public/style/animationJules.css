@@ -1,0 +1,7 @@
+.sect7LeftBackground:hover{
+    transform: rotateZ(5deg);
+}
+
+.sect7RightBackground:hover{
+    transform: rotateZ(-5deg);
+}
