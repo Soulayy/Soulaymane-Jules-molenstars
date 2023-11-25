@@ -10,6 +10,9 @@
     background-color: aqua;
 }
 
+.anim:hover img{
+    filter: brightness(100);
+}
 
 
 
