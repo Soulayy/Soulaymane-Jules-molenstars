@@ -159,10 +159,7 @@ body {
 
 /* /////////////////////////// */
 
-.section6 {
-    height: 600px;
-    background-color: #36bbe6;
-}
+
 /* ///////////////////////////////////////// */
 
 .section4 {
@@ -293,3 +290,141 @@ body {
 
 
 /* /////////////////////////////////// */
+
+
+.section6 {
+    height: 500px;
+    background-image: url(./../src/image/images/overly-img.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6Left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+
+.haut {
+    height: 50%;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.boite1 {
+    background-color: rgba(23,37,110,255);
+    border-radius: 10%;
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+    gap: 12px;
+}
+
+.boite1 p{
+    padding: 0%;
+    margin: 0%;
+    font-family: OswaldRegular;
+    font-size: 20px;
+    color: #5f70be;
+
+}
+
+.boite1 h2{
+    padding: 0%;
+    margin: 0%;
+    font-family: robotoRegular;
+    color: white;
+    font-size: 30px;
+}
+
+.bas {
+    height: 50%;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boite p{
+    padding: 0%;
+    margin: 0%;
+    font-family: OswaldRegular;
+    font-size: 20px;
+    color: #5f70be;
+
+}
+   
+.boite h2{
+    padding: 0%;
+    margin: 0%;
+    font-family: robotoRegular;
+    color: white;
+    font-size: 30px;
+}
+   
+
+
+.boite {
+    background-color: rgba(23,37,110,255);
+    border-radius: 10%;
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+    gap: 12px;
+
+}
+
+
+.sec6Right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 1%;
+}
+
+
+.sec4titre h1{
+    margin: 0%;
+    font-family: OswaldRegular;
+    font-size: 33px;
+
+}
+
+.sec6Right h3{
+    font-family: RobotoRegular;
+    color: #36bbe6;
+    font-size: 15px;
+    margin: 0%;
+}
+
+.sec6Right h1{
+    font-family: RobotoRegular;
+    color: #ffffff;
+}
+
+.sec6Right p{
+    font-family: OswaldRegular;
+    font-size: 15px;
+    color: #5f70be;
+    margin: 0%;
+}
+
+/* line-height */
