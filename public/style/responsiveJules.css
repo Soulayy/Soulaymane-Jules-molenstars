@@ -71,6 +71,26 @@
     }
 
 
+
+    .section5{
+        flex-direction: column;
+        height: 1000px;
+        gap: 0;
+    }
+
+    .sect5Left{
+        width: 60%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .sect5Right{
+        width: 100%;
+        height: 500px;
+        margin: 0;
+    }
+
+
 }
 
 @media (min-width: 575px) and (max-width: 768px){
@@ -102,6 +122,26 @@
     }
 
     .sect3Header{
+        font-size: 20px;
+    }
+
+
+    .section5{
+        height: 500px;
+    }
+
+    .circleAndCaption>.circle{
+        width: 50px;
+        font-size: 15px;
+    }
+
+    .circleAndCaption>p{
+        width: 50px;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .sect5Title{
         font-size: 20px;
     }
 }
