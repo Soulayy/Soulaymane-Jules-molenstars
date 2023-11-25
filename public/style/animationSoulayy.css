@@ -4,5 +4,26 @@
 }
 .anim img:hover {
     margin-bottom: 20px;
+    filter: brightness(100);
+}
+.anim:hover{
+    background-color: aqua;
 }
 
+.anim:hover img{
+    filter: brightness(100);
+}
+
+
+
+.anim4 {
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.anim4:hover {
+    border: 1px solid aqua;
+}
+
+.anim4:hover img{
+    margin-bottom: 10%;
+}
