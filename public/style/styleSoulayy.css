@@ -431,3 +431,118 @@ body {
 }
 
 /* line-height */
+
+
+/* /////////////////////////// */
+
+.section8 {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(./../src/image/images/dots-img.png);
+    background-position: right;
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+
+.sendMessage {
+    width: 100%;
+} 
+
+.top8 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+
+.sec8Top h3{
+    font-family: RobotoRegular;
+    color: #36bbe6;
+    font-size: 15px;
+    margin: 0%;
+}
+
+.sec8Top h1{
+    margin: 0%;
+    font-family: RobotoRegular;
+    font-size: 33px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.mid8 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #6b7bbe;
+    font-family: RobotoRegular;
+    background-color: rgba(10,22,80,255);
+}
+
+.bot8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+textarea {
+    height: 150px;
+    width: 795px;
+    border-radius: 5px;
+    border: 1px solid #6b7bbe;
+    background-color: rgba(10,22,80,255);
+
+}
+
+textarea placeholer{
+    height: 150px;
+    width: 795px;
+    border-radius: 5px;
+    border: 1px solid #6b7bbe;
+    font-family: RobotoRegular;
+}
+
+.sec8btn{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.sec8btn>button{
+    border: none;
+    border-radius: 100px;
+    padding: 8px 16px 8px 16px;
+    font-size: 10px;
+    color: white;
+    transition: 0.3s;
+    background-color: #36bbe6;
+}
+
+.sec8btn>button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(32 ,82 ,161);
+}
+
+.textform::placeholder, .input::placeholder{
+    color: #6b7bbe;
+}
