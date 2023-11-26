@@ -2,6 +2,7 @@
 
     .banner{
         flex-direction: column-reverse;
+        margin-bottom: 75px;
     }
 
     .bannerRight{
@@ -43,7 +44,7 @@
 
 
     .section3{
-        margin-top: 100px;
+        margin-top: 200px;
         flex-direction: column;
     }
 
@@ -75,6 +76,7 @@
     .section5{
         flex-direction: column;
         height: 1000px;
+        margin: 0;
         gap: 0;
     }
 

@@ -168,10 +168,11 @@
     position: absolute;
     background-image: url(./../src/image/images/dots-img2.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     transform: rotateY(180deg);
     right: 0;
+    top: 0;
 }
 
 /* SECTION 5  */
@@ -305,6 +306,7 @@
     margin-top: 100px;
     color: white;
     font-family: robotoRegular;
+    position: relative;
 }
 
 .section7>.lightBlueHeader, .sect7Title{ 
@@ -403,11 +405,18 @@
     background-size: cover;
 }
 
+.section7>img{
+    position: absolute;
+    top: 200px;
+    width: 100px;
+}
+
 
 /* FOOTER  */
 
 footer{
-    background-image: url(./../src/image/images/banner-overlay-img.png);
+    background-image: url(./../src/image/images/overly-img.png);
+    background-size:contain;
     background-color: rgb(9, 22 , 80);
     padding-top: 30px;
     background-position: center;
@@ -498,10 +507,16 @@ footer{
     display: flex;
     align-items: center;
     gap: 5px;
+    width: 100%;
 }
 
-.checkbox>label{
+.checkboxInput{
+    width: 20px;
+}
+
+.checkbox>p{
     opacity: 60%;
+    width: 300px;
 }
 
 .copyright{

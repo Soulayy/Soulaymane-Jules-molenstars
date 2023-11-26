@@ -29,7 +29,7 @@ body {
     height: 100%;
     width: 100vw;
     background-image: url(./../src/image/images/banner-overlay-img.png);
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(9, 22 , 80);
     background-repeat: no-repeat; 
 }
