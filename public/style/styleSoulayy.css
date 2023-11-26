@@ -444,19 +444,14 @@ body {
     background-position: right;
     background-size: 10%;
     background-repeat: no-repeat;
+    flex-direction: column;
 }
 
-.sendMessage {
-    width: 100%;
-} 
-
-.top8 {
-    height: 40%;
-    width: 100%;
+.mid8, form, .sec8Top, .input, .bot8, .sec8btn{
     display: flex;
     justify-content: center;
-    align-items: end;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .sec8Top h3{
@@ -464,6 +459,10 @@ body {
     color: #36bbe6;
     font-size: 15px;
     margin: 0%;
+}
+
+.bot8 textarea{
+    width: 100%;
 }
 
 .sec8Top h1{
@@ -474,13 +473,14 @@ body {
     padding-bottom: 15px;
 }
 
-.mid8 {
-    height: 10%;
-    width: 100%;
+.inputPere {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    gap: 15px;
+}
+
+.bot8 {
+    width: 100%;
+
 }
 
 form {
@@ -497,12 +497,7 @@ input {
     background-color: rgba(10,22,80,255);
 }
 
-.bot8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-}
+
 
 textarea {
     height: 150px;
