@@ -104,6 +104,45 @@
         width: 70%;
     }
 
+    .section10{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+    }
+
+    .section10>div>p, h1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .col1Footer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .col1Footer>img{
+        width: 30%;
+    }
+
+    .col2Footer{
+        width: 100%;
+    }
+
+    .col3Footer{
+        width: 100%;
+    }
+
+    .col4Footer{
+        width: 60%;
+    }
+
+    .checkbox{
+        justify-content: center;
+    }
+
 
 }
 
@@ -166,6 +205,38 @@
     .sect7Text{
         width: 70%;
     }
+
+    .section10{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col1Footer{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .col1Footer>img{
+        width: 20%;
+    }
+
+    .col2Footer{
+        width: 10%;
+    }
+
+    .col3Footer{
+        width: 20%;
+    }
+
+    .col4Footer{
+        width: 30%;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px){

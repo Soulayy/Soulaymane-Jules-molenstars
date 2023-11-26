@@ -403,3 +403,115 @@
     background-size: cover;
 }
 
+
+/* FOOTER  */
+
+footer{
+    background-image: url(./../src/image/images/banner-overlay-img.png);
+    background-color: rgb(9, 22 , 80);
+    padding-top: 30px;
+    background-position: center;
+    background-size: 150%;
+}
+
+.section10>div>h1{
+    font-size: 12px;
+}
+
+.section10>div>p{
+    opacity: 60%;
+    line-height: 15px;
+}
+
+.section10{
+    color: white;
+    margin-top: 100px;
+    font-size: 10px;
+    font-family: robotoRegular;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.col1Footer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.col1Footer>img{
+    width: 60%;
+}
+
+.col2Footer{
+    width: 10%;
+}
+
+.col3Footer{
+    width: 20%;
+}
+
+.col3Footer>a{
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+}
+
+.col4Footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+}
+
+.emailInput{
+    border: solid 1px rgba(255, 255, 255, 0.301);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.emailInput>input{
+    height: 30px;
+    background: none;
+    border: none;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.emailInput>input::placeholder{
+    color: white;
+    opacity: 60%;
+}
+
+.emailInput>img{
+    width: 15px;
+}
+
+.checkbox{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox>label{
+    opacity: 60%;
+}
+
+.copyright{
+    color: white;
+    border-top: solid white 1px;
+    font-family: robotoRegular;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    opacity: 50%;
+    margin-top: 50px;
+}
+
