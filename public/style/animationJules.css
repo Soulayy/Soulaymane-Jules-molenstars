@@ -1,7 +1,8 @@
 .sect7LeftBackground:hover{
-    transform: rotateZ(5deg);
+    transform: rotate(5deg) scale(1.1)
+    
 }
 
 .sect7RightBackground:hover{
-    transform: rotateZ(-5deg);
+    transform: rotate(5deg) scale(1.1)
 }
