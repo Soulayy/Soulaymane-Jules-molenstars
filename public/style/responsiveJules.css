@@ -106,6 +106,10 @@
         width: 70%;
     }
 
+    .section7>img{
+        display: none;
+    }
+
     .section10{
         flex-wrap: wrap;
         height: auto;
@@ -206,6 +210,10 @@
 
     .sect7Text{
         width: 70%;
+    }
+
+    .section7>img{
+        display: none;
     }
 
     .section10{

@@ -326,7 +326,7 @@
 }
 
 .sect7Right{
-    width: 40%;
+    width: 30%;
     aspect-ratio: 1/0.9;
     overflow: hidden;
     border-radius: 15px;
@@ -355,7 +355,7 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 15px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .sect7LeftBackground{
@@ -369,12 +369,13 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 15px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .sect7LeftTitle, .sect7RightTitle{
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 0;
+    font-family: robotoBold;
 }
 
 .sect7LeftSmallTitle, .sect7RightSmallTitle{
@@ -407,8 +408,8 @@
 
 .section7>img{
     position: absolute;
-    top: 200px;
-    width: 100px;
+    top: 160px;
+    width: 15%;
 }
 
 

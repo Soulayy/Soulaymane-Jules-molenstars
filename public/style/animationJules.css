@@ -1,8 +1,12 @@
 .sect7LeftBackground:hover{
-    transform: rotate(5deg) scale(1.1)
+    transform: rotate(2deg) scale(1.05)
     
 }
 
 .sect7RightBackground:hover{
-    transform: rotate(5deg) scale(1.1)
+    transform: rotate(2deg) scale(1.05)
+}
+
+.sect7Text :hover{
+    color: rgb(5, 212 , 239);
 }
