@@ -2,6 +2,8 @@
 
     .banner{
         flex-direction: column-reverse;
+        margin-bottom: 75px;
+        margin-top: 80px;
     }
 
     .bannerRight{
@@ -17,8 +19,9 @@
 
     .bannerTitle{
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 30px;
+        line-height: 40px;
     }
 
     .bannerLeft{
@@ -28,6 +31,10 @@
     .bannerText{
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    .bannerText>br{
+        display: none;
     }
 
     .bannerButtons{
@@ -41,21 +48,244 @@
     }
 
 
+
+    .section3{
+        margin-top: 200px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .sect3Right{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sect3Left{
+        width: 50%;
+    }
+
+    .sect3Header{
+        font-size: 20px;
+    }
+
+    .sect3Header, .sect3Text, .lightBlueHeader{
+        text-align: center;
+    }
+
+    .checkText{
+        margin-top: 20px;
+    }
+
+
+
+    .section5{
+        flex-direction: column;
+        height: 1000px;
+        margin: 0;
+        gap: 0;
+    }
+
+    .sect5Left{
+        width: 60%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .sect5Text{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .sect5Right{
+        width: 100%;
+        height: 500px;
+        margin: 0;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
+    .sect5RightContent{
+        display: none;
+    }
+
+    .circleAndCaption>.circle{
+        width: 60px;
+    }
+
+
+    .sect7Content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sect7Right{
+        width: 100%;
+    }
+
+    .sect7Text{
+        width: 70%;
+    }
+
+    .section7>img{
+        display: none;
+    }
+
+    .section10{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+    }
+
+    .section10>div>p, h1{
+        text-align: center;
+        width: 100%;
+    }
+
+    footer{
+        height: max-content;
+        padding-top: 10px;
+    }
+
+
+    .col1Footer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .col1Footer>img{
+        width: 30%;
+    }
+
+    .col2Footer{
+        width: 40%;
+    }
+
+    .col3Footer{
+        width: 40%;
+    }
+
+    .col4Footer{
+        width: 60%;
+    }
+
+    .checkbox{
+        justify-content: center;
+    }
+
+
 }
 
 @media (min-width: 575px) and (max-width: 768px){
 
     .bannerTitle{
-        font-size: 25px;
+        font-size: 20px;
+        line-height: 25px;
     }
 
     .bannerLeft{
-        width: 50%;
+        width: 30%;
     }
 
     .bannerRight{
+        width: 35%;
+    }
+
+    .bannerText>br{
+        display: none;
+    }
+
+
+
+    .section3{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .sect3Right{
+        width: 35%;
+    }
+
+    .sect3Left{
+        width: 35%;
+    }
+
+    .sect3Header{
+        font-size: 20px;
+    }
+
+
+    .section5{
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .circleAndCaption>.circle{
+        width: 50px;
+        font-size: 15px;
+    }
+
+    .circleAndCaption>p{
+        width: 50px;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .sect5Title{
+        font-size: 20px;
+    }
+
+    .sect5RightContent{
+        display: none;
+    }
+
+    .sect7Right{
         width: 50%;
     }
+
+    .sect7Text{
+        width: 70%;
+    }
+
+    .section7>img{
+        display: none;
+    }
+
+    .section10{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col1Footer{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .col1Footer>img{
+        width: 20%;
+    }
+
+    .col2Footer{
+        width: 10%;
+    }
+
+    .col3Footer{
+        width: 20%;
+    }
+
+    .col4Footer{
+        width: 30%;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px){
@@ -64,4 +294,40 @@
 
 @media (min-width: 993px) and (max-width: 992px){
 
+}
+/* CHANGES  */
+@media (max-width: 1024px) and (min-width: 769px){
+
+    .bannerTitle{
+        line-height: 40px;
+    }
+
+    .bannerText>br{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .section5{
+        margin: 0px;
+        height: 500px;
+    }
+    .sect5Right{
+        height: 500px;
+    }
+
+    .sect3Image{
+        width: 360px;
+    }
+
+    .sect3Left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sect3Text{
+        width: 80%;
+    }
 }
