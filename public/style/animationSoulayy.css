@@ -18,7 +18,7 @@
 
 .anim4 {
     transition-timing-function: ease;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 .anim4:hover {
     border: 1px solid aqua;

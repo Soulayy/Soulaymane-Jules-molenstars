@@ -25,14 +25,15 @@
 }
 
 
-
+/* CHANGES  */
 
 .banner{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 0px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .bannerLeft{
@@ -42,14 +43,14 @@
 
 .bannerTitle{
     font-family: robotoBold;
-    font-size: 30px;
-    margin: 0;
+    font-size: 33px;
+    line-height: 50px;
 }
 
 .bannerText{
     color: rgb(71, 123, 208);
     font-family: robotoRegular;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
 }
 
@@ -62,11 +63,13 @@
 .bannerButtons>button{
     border: none;
     border-radius: 100px;
-    padding: 8px 16px 8px 16px;
+    padding: 10px 18px 10px 18px;
     font-size: 10px;
     color: white;
     transition: 0.3s;
 }
+
+/* END OF CHAGES  */
 
 .bannerButtons>button:hover{
     background-color: white;
@@ -130,16 +133,17 @@
 .lightBlueHeader{
     letter-spacing: 3px;
     color: rgb(5, 212 , 239);
-    font-family: robotoBold;
-    font-size: 8px;
+    font-family: robotoRegular;
+    font-size: 11px;
 }
 
 .sect3Header{
     font-size: 25px;
+    font-family: robotoBold;
 }
 
 .sect3Text{
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
     color: rgb(71, 123, 208);
     margin-bottom: 20px;
@@ -203,15 +207,15 @@
 }
 
 .sect5Text{
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
     margin: 0;
 }
 
 .sect5Circles{
     display: flex;
-    justify-content: space-between;
     margin-top: 30px;
+    gap: 10%;
 }
 
 .circleAndCaption>.circle{
@@ -221,7 +225,7 @@
     font-size: 20px;
     font-family: oswaldMedium;
     text-align: center;
-    width: 70px;
+    width: 80px;
     aspect-ratio: 1 / 1;
     border: solid 1.5px rgb(5, 212 , 239);
     border-radius: 50%;
@@ -303,7 +307,7 @@
 /* SECTION 7  */
 
 .section7{
-    margin-top: 100px;
+    margin-top: 40px;
     color: white;
     font-family: robotoRegular;
     position: relative;
@@ -314,7 +318,7 @@
 }
 
 .sect7Title{
-    font-size: 25px;
+    font-size: 20px;
     font-family: robotoBold;
 }
 
@@ -417,11 +421,12 @@
 
 footer{
     background-image: url(./../src/image/images/overly-img.png);
-    background-size:contain;
+    background-size:cover;
     background-color: rgb(9, 22 , 80);
     padding-top: 30px;
     background-position: center;
     background-size: 150%;
+    background-color: rgb(17, 32, 97);
 }
 
 .section10>div>h1{

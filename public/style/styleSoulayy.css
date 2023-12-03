@@ -170,6 +170,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-image: url(./../src/image/images/overly-img.png);
+    background-size: cover;
+    background-color: rgb(17, 32, 97);
 }
 
 .whatwedo {
@@ -191,15 +193,15 @@ body {
     text-align: center;
 }
 
-.sec4titre h1{
+.sec4titre>h1{
     margin: 0%;
-    font-family: OswaldRegular;
+    font-family: robotoBold;
     font-size: 33px;
 
 }
 
 .sec4titre p{
-    font-family: OswaldRegular;
+    font-family: robotoRegular;
     font-size: 11px;
     color: #36bbe6;
 }
@@ -243,7 +245,7 @@ body {
 .Ptext p {
     width: 100%;
     padding: 10% 0% 10% 10%;
-    font-family: OswaldRegular;
+    font-family: RobotoRegular;
 }
 
 
@@ -295,9 +297,12 @@ body {
 .section6 {
     height: 500px;
     background-image: url(./../src/image/images/overly-img.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(17, 32, 97);
+    gap: 20px;
 }
 
 .sec6Left {
@@ -414,21 +419,28 @@ body {
 .sec6Right h3{
     font-family: RobotoRegular;
     color: #36bbe6;
-    font-size: 15px;
+    font-size: 11px;
     margin: 0%;
 }
 
 .sec6Right h1{
-    font-family: RobotoRegular;
+    font-family: RobotoBold;
     color: #ffffff;
 }
 
 .sec6Right p{
-    font-family: OswaldRegular;
-    font-size: 15px;
+    font-family: RobotoRegular;
+    font-size: 12px;
     color: #5f70be;
     margin: 0%;
+    width: 60%;
 }
+
+.sec6Right p br{
+    display: none;
+}
+
+
 
 /* line-height */
 
@@ -457,7 +469,7 @@ body {
 .sec8Top h3{
     font-family: RobotoRegular;
     color: #36bbe6;
-    font-size: 15px;
+    font-size: 11px;
     margin: 0%;
 }
 
@@ -467,7 +479,7 @@ body {
 
 .sec8Top h1{
     margin: 0%;
-    font-family: RobotoRegular;
+    font-family: RobotoBold;
     font-size: 33px;
     color: white;
     padding-bottom: 15px;
