@@ -517,6 +517,7 @@ textarea {
     border-radius: 5px;
     border: 1px solid #6b7bbe;
     background-color: rgba(10,22,80,255);
+    resize: none;
 
 }
 
